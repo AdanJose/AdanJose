@@ -153,3 +153,10 @@ body{
     max-width: 70%;
     margin: auto;
 }
+
+.title{
+    font-family: 'Inconsolata', monospace;   
+    font-size: 25px;
+    color: white;
+    border-bottom: 1px dashed black;
+}
