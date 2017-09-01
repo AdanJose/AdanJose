@@ -33,8 +33,10 @@
     background-color: #6DA61B;
 }
 
+@media (min-width: 1200px){
 .nav-bar-header{
     margin-right: 200px;
+}
 }
 
 .icono-header{
@@ -48,7 +50,7 @@ body{
 .about-me{
     width: 70%;
     margin: auto;
-    background: #aaa;
+    background: #8DC639;
 }
 
 .profile-pic{
@@ -58,7 +60,7 @@ body{
 }
 
 .description-text{
-    width: 600px;
+    max-width: 600px;
     margin: 30px;
     margin-right: 100px;
     color: white;
@@ -73,21 +75,14 @@ body{
 }
 
 .portfolio{
-    background-color: white;
-    height: 100vh;
+    background-color: #8D49A3;
     width: 70%;
     margin: auto;
 }
 
 .portfolio h1{
     font-family: 'Inconsolata', monospace;
-    color: #aaa;
-}
-
-.design-cell{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: white;
 }
 
 .tabs-title a{
@@ -100,14 +95,6 @@ body{
     color: #6DA61B;
 }
 
-.logo-orbit{
-    margin: auto;
-    width: 50%;
-}
-
-.orbit-image{
-    width: 100%;
-}
 
 .contact-form{
     background: #8DC639;
@@ -149,7 +136,20 @@ body{
 .footer{
     width: 100%;
     height: 50px;
+    position: relative;
+    bottom: 0;
     color: white;
     margin: auto;
     background: #161B29;
+}
+
+.logos{
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.characters{
+    max-width: 70%;
+    margin: auto;
 }
